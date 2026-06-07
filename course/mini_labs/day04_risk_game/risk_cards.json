@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "CARD-1",
+      "title": "PyYAML 역직렬화 RCE",
+      "severity": "High",
+      "kev": true,
+      "epss": 0.82,
+      "control_module": "ecu_firmware_update",
+      "human_guess_rank": 2
+    },
+    {
+      "id": "CARD-2",
+      "title": "관리자 페이지 디버그 모드 노출",
+      "severity": "Critical",
+      "kev": false,
+      "epss": 0.08,
+      "control_module": "internal_admin",
+      "human_guess_rank": 1
+    },
+    {
+      "id": "CARD-3",
+      "title": "약한 해시(MD5) 사용",
+      "severity": "Medium",
+      "kev": false,
+      "epss": 0.04,
+      "control_module": "internal_admin",
+      "human_guess_rank": 5
+    },
+    {
+      "id": "CARD-4",
+      "title": "Jinja2 XSS",
+      "severity": "Medium",
+      "kev": false,
+      "epss": 0.21,
+      "control_module": "public_web",
+      "human_guess_rank": 4
+    },
+    {
+      "id": "CARD-5",
+      "title": "ECU 명령 인젝션",
+      "severity": "High",
+      "kev": true,
+      "epss": 0.35,
+      "control_module": "ecu_command_bus",
+      "human_guess_rank": 3
+    }
+  ]
+}
